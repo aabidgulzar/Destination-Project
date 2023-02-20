@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Vacation Destination Wish List</h1>
+        <p>Found exciting places to visition on your next vacation? Use the form below to add them to your wish list</p>
+    </header>
+<form id="first-animation">
+   <label for="user">Your Name</label>
+   <input type="text" name="user" id="user" placeholder="Your Name" required autofocus title="Only characters[A-z]" pattern="[A-Za-Z]">
+   <button type="submit">Continue ></button>
+</form>
+<div id="name-container">
+   
+</div>
+    <main>
+        <form id="destination_details_form">
+           
+
+
+            <label for="name">Destination Name</label>
+            <input type="text" id="name" required placeholder="Provide a name for the destination">
+
+            <label for="location">Destination Location</label>
+            <input type="text" id="location" required placeholder="where is this destination located">
+
+            <label for="photo">Photo</label>
+            <input type="url" id="photo" placeholder="provide a Url for photo">
+
+
+
+            <label for="discription">Destination Description</label>
+            <textarea id="description" cols="20" rows="5" placeholder="Describe the destination"></textarea>
+
+
+            <button type="submit">Add to list</button>
+        </form>
+
+        <article>
+            <h2 id="tittle">Enter Destination Details</h2>
+            <div id="destination_container">
+                <!-- js text -->
+            </div>
+        </article>
+    </main>
+
+    <button id="togglemode">Dark Mode</button>
+    
+    <script src="index.js"></script>
+</body>
+</html>
